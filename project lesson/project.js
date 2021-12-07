@@ -33,7 +33,7 @@ function rememberMyFilms() {
     }
 }
 
-// rememberMyFilms();
+rememberMyFilms();
 
 function detectPersonLevel() {
     if (personalMovieDB.count < 10) {
@@ -47,7 +47,7 @@ function detectPersonLevel() {
     }
 }
 
-// detectPersonLevel();
+detectPersonLevel();
 
 function showMyDB (hidden) {
     if (!hidden) {
